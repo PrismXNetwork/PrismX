@@ -1,7 +1,7 @@
 # PrismX - Decentralized Privacy Platform
 
 <div align="center">
-  <img src="assets/logo.svg" alt="PrismX Logo" width="250">
+  <img src="./assets/logo.svg" alt="PrismX Logo" width="250">
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
   [![Website](https://img.shields.io/badge/Website-prismx.network-blue)](https://www.prismx.network)
