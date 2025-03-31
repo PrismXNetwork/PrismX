@@ -221,3 +221,106 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Twitter: [@PrismXNetwork](https://x.com/PrismXNetwork)
 
 Built with ❤️ by the PrismX Team
+
+# PrismX Privacy Shield
+
+A revolutionary privacy protection system that rewards users for contributing to a more private and secure internet ecosystem.
+
+## Features
+
+- 🔒 Advanced Privacy Protection
+  - Tracker blocking
+  - HTTPS enforcement
+  - Cookie management
+  - Fingerprint protection
+  - Script control
+
+- 💰 Token Rewards
+  - Earn PRX tokens for privacy protection
+  - Network contribution rewards
+  - Daily and weekly bonuses
+  - Special event rewards
+
+- 🌐 Network Contribution
+  - Distributed node network
+  - Traffic routing
+  - Data validation
+  - Consensus participation
+
+## Quick Start
+
+1. Download the extension from [GitHub Releases](https://github.com/PrismXNetwork/prismx/releases)
+2. Enable Developer mode in Chrome
+3. Load the unpacked extension
+4. Start protecting your privacy and earning PRX!
+
+## Documentation
+
+- [API Documentation](docs/API.md) - Complete API reference and integration guide
+- [Technical Whitepaper](docs/TECHNICAL_WHITEPAPER.md) - Detailed technical architecture and design
+- [Development Setup](docs/DEVELOPMENT_SETUP.md) - Guide for setting up the development environment
+- [Contributing Guidelines](docs/CONTRIBUTING.md) - How to contribute to the project
+- [Security Documentation](docs/SECURITY.md) - Security measures and best practices
+- [Privacy Policy](docs/PRIVACY_POLICY.md) - How we handle and protect your data
+
+## Beta Testing
+
+We're currently in beta! Join our testing program to:
+- Get early access to new features
+- Help shape the future of privacy
+- Earn bonus PRX tokens
+- Provide direct feedback
+
+### Beta Installation
+
+1. Download the latest beta release from [GitHub Releases](https://github.com/PrismXNetwork/prismx/releases)
+2. Enable Developer mode in Chrome
+3. Click "Load unpacked" and select the downloaded extension
+4. Start using PrismX Privacy Shield!
+
+### Beta Features
+
+- Real-time privacy protection
+- PRX token earning
+- Network contribution tracking
+- Enhanced protection modes
+- Custom privacy rules
+
+## Community
+
+- [Discord](https://discord.gg/prismx) - Join our community
+- [GitHub Issues](https://github.com/PrismXNetwork/prismx/issues) - Report bugs and request features
+- [Documentation](https://docs.prismx.network) - Official documentation
+
+## Development
+
+See our [Development Setup Guide](docs/DEVELOPMENT_SETUP.md) for detailed instructions on:
+- Setting up the development environment
+- Building the extension
+- Running tests
+- Contributing code
+
+## Security & Privacy
+
+- [Security Documentation](docs/SECURITY.md) - Learn about our security measures
+- [Privacy Policy](docs/PRIVACY_POLICY.md) - Understand how we protect your data
+- [Bug Bounty Program](docs/SECURITY.md#bug-bounty-program) - Report security issues
+- [Vulnerability Disclosure](docs/SECURITY.md#vulnerability-disclosure) - Security reporting process
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Support
+
+- Email: support@prismx.network
+- Documentation: https://docs.prismx.network
+- GitHub Issues: https://github.com/PrismXNetwork/prismx/issues
+- Security Issues: security@prismx.network
+
+## Acknowledgments
+
+- Privacy Protection Standards
+- Blockchain Technology
+- Network Security Protocols
+- Token Economics Research
