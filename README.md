@@ -1,4 +1,4 @@
-# PrismX - Decentralized Privacy Platform
+# PrismX Network
 
 <div align="center">
   <img src="./assets/logo.svg" alt="PrismX Logo" width="250">
@@ -9,11 +9,9 @@
   [![GitHub](https://img.shields.io/badge/GitHub-PrismXNetwork-blue)](https://github.com/PrismXNetwork/PrismX)
 </div>
 
-## 🔒 Overview
+PrismX Network is a decentralized privacy-enhancing platform that leverages blockchain technology to create a distributed network of privacy patterns. The platform enables users to contribute their browsing data to generate privacy patterns while earning rewards in the form of $PRX tokens.
 
-PrismX is a decentralized privacy platform built on the Solana blockchain, focusing on providing robust privacy solutions through advanced pattern generation and management. The platform enables users to maintain their privacy while interacting with blockchain networks and decentralized applications.
-
-### Key Features
+## Features
 
 - **Privacy Pattern Generation**: Advanced algorithms for generating and managing privacy patterns
 - **Pattern Effectiveness Tracking**: Real-time monitoring and validation of privacy patterns
@@ -21,72 +19,29 @@ PrismX is a decentralized privacy platform built on the Solana blockchain, focus
 - **Metadata Management**: Flexible tagging and categorization of privacy patterns
 - **Decentralized Storage**: Secure storage of privacy patterns across the network
 - **API Integration**: RESTful API for seamless integration with other applications
+- **Token Rewards**: Earn $PRX tokens for contributing to the network
+- **Real-time Protection**: Dynamic application of privacy patterns to web pages
+- **User Control**: Granular control over privacy settings and pattern application
 
-## 🏗️ System Architecture
+## Quick Start
 
-PrismX employs a modern, scalable architecture designed for privacy, security, and performance.
+1. **Install the Extension**
+   - Download the latest release from [GitHub](https://github.com/PrismXNetwork/prismx-extension/releases)
+   - Open Chrome and go to `chrome://extensions/`
+   - Enable Developer mode
+   - Load the unpacked extension
 
-### High-Level Architecture
+2. **Configure Settings**
+   - Click the PrismX icon in your browser toolbar
+   - Adjust privacy settings and pattern preferences
+   - Connect your wallet to start earning rewards
 
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│                        Client Applications                          │
-│                                                                     │
-│   ┌─────────────────┐   ┌─────────────────┐   ┌─────────────────┐   │
-│   │   Web Interface │   │   Mobile App    │   │   Admin Portal  │   │
-│   │   (React/Next)  │   │   (React Native)│   │                 │   │
-│   └─────────────────┘   └─────────────────┘   └─────────────────┘   │
-└────────────────────────────────┬────────────────────────────────────┘
-                                 │
-                                 ▼
-┌─────────────────────────────────────────────────────────────────────┐
-│                           API Gateway                               │
-│                                                                     │
-│   ┌─────────────────┐   ┌─────────────────┐   ┌─────────────────┐   │
-│   │  Authentication │   │ Rate Limiting   │   │   API Routing   │   │
-│   │  & Authorization│   │ & Throttling   │   │   & Validation  │   │
-│   └─────────────────┘   └─────────────────┘   └─────────────────┘   │
-└────────────────────────────────┬────────────────────────────────────┘
-                                 │
-                                 ▼
-┌─────────────────────────────────────────────────────────────────────┐
-│                        Backend Services                             │
-│                                                                     │
-│ ┌─────────────┐ ┌─────────────┐ ┌─────────────┐ ┌─────────────┐    │
-│ │ Privacy     │ │ Pattern     │ │ Validation  │ │ Analytics   │    │
-│ │ Engine      │ │ Service     │ │ Service     │ │ Service     │    │
-│ └─────────────┘ └─────────────┘ └─────────────┘ └─────────────┘    │
-│                                                                     │
-│ ┌─────────────┐ ┌─────────────┐ ┌─────────────┐ ┌─────────────┐    │
-│ │ Resource    │ │ Metadata    │ │ Monitoring  │ │ Security    │    │
-│ │ Manager     │ │ Service     │ │ Service     │ │ Service     │    │
-│ └─────────────┘ └─────────────┘ └─────────────┘ └─────────────┘    │
-└────────────────────────────────┬────────────────────────────────────┘
-                                 │
-                                 ▼
-┌─────────────────────────────────────────────────────────────────────┐
-│                     External Integrations                           │
-│                                                                     │
-│   ┌─────────────────┐   ┌─────────────────┐   ┌─────────────────┐   │
-│   │  Solana         │   │  IPFS/Storage   │   │  Analytics      │   │
-│   │  Integration    │   │  Solutions      │   │  Providers      │   │
-│   └─────────────────┘   └─────────────────┘   └─────────────────┘   │
-└────────────────────────────────┬────────────────────────────────────┘
-                                 │
-                                 ▼
-┌─────────────────────────────────────────────────────────────────────┐
-│                       Data Layer                                  │
-│                                                                     │
-│   ┌─────────────────┐   ┌─────────────────┐   ┌─────────────────┐   │
-│   │   MongoDB       │   │     Redis       │   │ IPFS/Storage    │   │
-│   │   Database      │   │     Cache       │   │ Solutions       │   │
-│   └─────────────────┘   └─────────────────┘   └─────────────────┘   │
-└─────────────────────────────────────────────────────────────────────┘
-```
+3. **Start Earning**
+   - Browse normally while the extension runs in the background
+   - Monitor your earnings in the extension popup
+   - Withdraw rewards to your connected wallet
 
-## 💻 Technical Stack
-
-PrismX is built with a modern technology stack focused on privacy and security:
+## Technical Stack
 
 ### Frontend
 - **Framework**: React with Next.js for server-side rendering
@@ -108,160 +63,60 @@ PrismX is built with a modern technology stack focused on privacy and security:
 - **Testing Framework**: Jest for unit & integration testing
 - **Token Standard**: SPL Token
 
-## 🚀 Getting Started
+## Development
 
 ### Prerequisites
-- Node.js (v16+)
-- npm or yarn
+- Node.js 18+
+- Chrome browser
+- Git
 - MongoDB (v5+)
 - Solana CLI tools
 - Anchor framework
 
-### Installation
+### Setup
 
-```bash
-# Clone the repository
-git clone https://github.com/PrismXNetwork/PrismX.git
-cd PrismX
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/PrismXNetwork/prismx-extension.git
+   cd prismx-extension
+   ```
 
-# Install dependencies
-npm install
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-# Set up environment variables
-cp .env.example .env
-# Edit .env file with your configuration
+3. Build the extension:
+   ```bash
+   npm run build
+   ```
 
-# Start development server
-npm run dev
-```
-
-## 📊 Core Features
-
-### Privacy Pattern Generation
-
-The PrismX platform implements sophisticated privacy pattern generation:
-
-1. **Pattern Creation**
-   - Generate unique privacy patterns
-   - Measure pattern effectiveness
-   - Track resource usage
-
-2. **Pattern Management**
-   - Store patterns securely
-   - Validate pattern effectiveness
-   - Manage pattern metadata
-
-3. **Pattern Optimization**
-   - Monitor resource usage
-   - Clean up outdated patterns
-   - Optimize pattern selection
-
-### Pattern Validation System
-
-PrismX implements a robust pattern validation system:
-
-- **Effectiveness Measurement**: Calculate pattern entropy and effectiveness
-- **Resource Usage Tracking**: Monitor pattern resource consumption
-- **Metadata Management**: Tag and categorize patterns
-- **Automatic Cleanup**: Remove invalid or outdated patterns
-
-## 🔒 Security Framework
-
-PrismX prioritizes security and privacy at every level:
-
-1. **Data Protection**
-   - End-to-end encryption
-   - Secure key management
-   - Data minimization principles
-
-2. **Pattern Security**
-   - Entropy-based validation
-   - Resource usage monitoring
-   - Automatic pattern rotation
-
-3. **Smart Contract Security**
-   - Formal verification
-   - Multiple independent audits
-   - Bug bounty program
-
-4. **Operational Security**
-   - Regular penetration testing
-   - Security incident response plan
-   - Continuous monitoring
-
-## 📖 Documentation
-
-Comprehensive documentation is available to help you understand and use PrismX:
-
-- [User Guide](docs/en/user_guide.md) - For platform users
-- [Developer Documentation](docs/en/development.md) - For developers building on PrismX
-- [API Reference](docs/en/api_reference.md) - Detailed API documentation
-- [Whitepaper](docs/en/whitepaper.md) - Technical overview of the platform
-
-## 🤝 Contributing
-
-We welcome contributions from the community! Please read our [Contributing Guidelines](CONTRIBUTING.md) for more information on how to get involved.
+4. Load the extension in Chrome:
+   - Open `chrome://extensions/`
+   - Enable Developer mode
+   - Click "Load unpacked"
+   - Select the `dist/extension` directory
 
 ### Development Workflow
 
 1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
+2. Create a feature branch (`git checkout -b feature/your-feature-name`)
+3. Commit your changes (`git commit -m 'Add your feature'`)
+4. Push to the branch (`git push origin feature/your-feature-name`)
 5. Open a Pull Request
 
-## 📜 License
+### Project Structure
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📞 Contact
-
-- Website: [prismx.network](https://www.prismx.network)
-- Email: info@prismx.network
-- Twitter: [@PrismXNetwork](https://x.com/PrismXNetwork)
-
-Built with ❤️ by the PrismX Team
-
-# PrismX Privacy Shield
-
-A revolutionary privacy protection system that rewards users for contributing to a more private and secure internet ecosystem.
-
-## Features
-
-- 🔒 Advanced Privacy Protection
-  - Tracker blocking
-  - HTTPS enforcement
-  - Cookie management
-  - Fingerprint protection
-  - Script control
-
-- 💰 Token Rewards
-  - Earn PRX tokens for privacy protection
-  - Network contribution rewards
-  - Daily and weekly bonuses
-  - Special event rewards
-
-- 🌐 Network Contribution
-  - Distributed node network
-  - Traffic routing
-  - Data validation
-  - Consensus participation
-
-## Quick Start
-
-1. Download the extension from [GitHub Releases](https://github.com/PrismXNetwork/prismx/releases)
-2. Enable Developer mode in Chrome
-3. Load the unpacked extension
-4. Start protecting your privacy and earning PRX!
-
-## Documentation
-
-- [API Documentation](docs/API.md) - Complete API reference and integration guide
-- [Technical Whitepaper](docs/TECHNICAL_WHITEPAPER.md) - Detailed technical architecture and design
-- [Development Setup](docs/DEVELOPMENT_SETUP.md) - Guide for setting up the development environment
-- [Contributing Guidelines](docs/CONTRIBUTING.md) - How to contribute to the project
-- [Security Documentation](docs/SECURITY.md) - Security measures and best practices
-- [Privacy Policy](docs/PRIVACY_POLICY.md) - How we handle and protect your data
+```
+prismx-extension/
+├── src/
+│   ├── extension/     # Browser extension code
+│   ├── core/         # Core privacy engine
+│   ├── api/          # API integration
+│   └── types/        # TypeScript type definitions
+├── dist/             # Built extension files
+└── scripts/          # Build and utility scripts
+```
 
 ## Beta Testing
 
@@ -273,10 +128,11 @@ We're currently in beta! Join our testing program to:
 
 ### Beta Installation
 
-1. Download the latest beta release from [GitHub Releases](https://github.com/PrismXNetwork/prismx/releases)
-2. Enable Developer mode in Chrome
-3. Click "Load unpacked" and select the downloaded extension
-4. Start using PrismX Privacy Shield!
+1. Download the latest beta release from [GitHub Releases](https://github.com/PrismXNetwork/prismx-extension/releases)
+2. Open Chrome and go to `chrome://extensions/`
+3. Enable Developer mode
+4. Click "Load unpacked" and select the downloaded extension
+5. Start using PrismX Privacy Shield!
 
 ### Beta Features
 
@@ -286,41 +142,15 @@ We're currently in beta! Join our testing program to:
 - Enhanced protection modes
 - Custom privacy rules
 
-## Community
-
-- [Discord](https://discord.gg/prismx) - Join our community
-- [GitHub Issues](https://github.com/PrismXNetwork/prismx/issues) - Report bugs and request features
-- [Documentation](https://docs.prismx.network) - Official documentation
-
-## Development
-
-See our [Development Setup Guide](docs/DEVELOPMENT_SETUP.md) for detailed instructions on:
-- Setting up the development environment
-- Building the extension
-- Running tests
-- Contributing code
-
-## Security & Privacy
-
-- [Security Documentation](docs/SECURITY.md) - Learn about our security measures
-- [Privacy Policy](docs/PRIVACY_POLICY.md) - Understand how we protect your data
-- [Bug Bounty Program](docs/SECURITY.md#bug-bounty-program) - Report security issues
-- [Vulnerability Disclosure](docs/SECURITY.md#vulnerability-disclosure) - Security reporting process
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Support
 
+- [Discord Community](https://discord.gg/prismx)
+- [GitHub Issues](https://github.com/PrismXNetwork/prismx-extension/issues)
 - Email: support@prismx.network
-- Documentation: https://docs.prismx.network
-- GitHub Issues: https://github.com/PrismXNetwork/prismx/issues
 - Security Issues: security@prismx.network
 
-## Acknowledgments
-
-- Privacy Protection Standards
-- Blockchain Technology
-- Network Security Protocols
-- Token Economics Research
+Built with ❤️ by the PrismX Team
