@@ -13,23 +13,59 @@ PrismX Network is a decentralized privacy-enhancing platform that leverages bloc
 
 ## Features
 
-- **Privacy Pattern Generation**: Advanced algorithms for generating and managing privacy patterns
-- **Pattern Effectiveness Tracking**: Real-time monitoring and validation of privacy patterns
-- **Resource Optimization**: Efficient resource usage tracking and optimization
-- **Metadata Management**: Flexible tagging and categorization of privacy patterns
-- **Decentralized Storage**: Secure storage of privacy patterns across the network
-- **API Integration**: RESTful API for seamless integration with other applications
-- **Token Rewards**: Earn $PRX tokens for contributing to the network
-- **Real-time Protection**: Dynamic application of privacy patterns to web pages
-- **User Control**: Granular control over privacy settings and pattern application
+### Privacy Pattern Generation
+- **Advanced Pattern Recognition**: Utilizes machine learning algorithms to identify and generate effective privacy patterns from user browsing data
+- **Pattern Validation**: Continuous validation of patterns through distributed network consensus
+- **Dynamic Updates**: Real-time pattern updates based on emerging privacy threats
+- **Custom Rules**: Create and share your own privacy protection rules
+
+### Privacy Shield System
+- **Real-time Protection**: Instant application of privacy patterns to web pages
+- **Multi-layer Defense**: Combines multiple protection strategies:
+  - Network traffic obfuscation
+  - Browser fingerprint randomization
+  - Request pattern modification
+  - Metadata scrubbing
+- **Smart Shield Strength**: Adaptive protection levels based on website risk assessment
+- **Performance Optimization**: Minimal impact on browsing speed while maintaining protection
+
+### Network Contribution
+- **Distributed Pattern Storage**: Secure storage of privacy patterns across the network
+- **Contribution Tracking**: Precise measurement of user contributions to the network
+- **Resource Management**: Efficient allocation and usage of network resources
+- **Network Health Monitoring**: Real-time metrics on pattern effectiveness
+
+### Token Economy
+- **$PRX Token Rewards**: Earn tokens for:
+  - Contributing privacy patterns
+  - Validating pattern effectiveness
+  - Network resource sharing
+  - Community participation
+- **Dynamic Reward System**: Rewards adjusted based on:
+  - Pattern quality
+  - Network contribution size
+  - Validation accuracy
+  - Shield strength maintenance
+
+### User Control & Privacy
+- **Granular Settings**: Fine-tune protection levels for different websites
+- **Privacy Dashboard**: Monitor and manage your privacy status
+- **Contribution Analytics**: Track your network contributions and rewards
+- **Custom Exceptions**: Create allowlists for trusted websites
+
+### Technical Features
+- **Blockchain Integration**: Secure and transparent reward distribution
+- **API Support**: RESTful API for third-party integrations
+- **Resource Optimization**: Efficient CPU and memory usage
+- **Automatic Updates**: Seamless updates to privacy patterns and rules
 
 ## Quick Start
 
 1. **Install the Extension**
-   - Download the latest release from [GitHub](https://github.com/PrismXNetwork/prismx-extension/releases)
+   - Download the latest beta release from the releases page
    - Open Chrome and go to `chrome://extensions/`
    - Enable Developer mode
-   - Load the unpacked extension
+   - Load the unpacked extension from the `beta/v0.7.1.2` directory
 
 2. **Configure Settings**
    - Click the PrismX icon in your browser toolbar
@@ -47,7 +83,7 @@ PrismX Network is a decentralized privacy-enhancing platform that leverages bloc
 - **Framework**: React with Next.js for server-side rendering
 - **State Management**: Redux with Redux Toolkit
 - **UI Components**: Material-UI with custom theming
-- **Wallet Integration**: Solana wallet adapters (@solana/wallet-adapter)
+- **Wallet Integration**: Solana wallet adapters
 - **API Integration**: Axios, SWR for data fetching
 
 ### Backend
@@ -97,14 +133,6 @@ PrismX Network is a decentralized privacy-enhancing platform that leverages bloc
    - Click "Load unpacked"
    - Select the `dist/extension` directory
 
-### Development Workflow
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/your-feature-name`)
-3. Commit your changes (`git commit -m 'Add your feature'`)
-4. Push to the branch (`git push origin feature/your-feature-name`)
-5. Open a Pull Request
-
 ### Project Structure
 
 ```
@@ -128,10 +156,10 @@ We're currently in beta! Join our testing program to:
 
 ### Beta Installation
 
-1. Download the latest beta release from [GitHub Releases](https://github.com/PrismXNetwork/prismx-extension/releases)
+1. Download the latest beta release from [GitHub Releases](https://github.com/PrismXNetwork/PrismX/releases/tag/v0.7.1.2-beta)
 2. Open Chrome and go to `chrome://extensions/`
 3. Enable Developer mode
-4. Click "Load unpacked" and select the downloaded extension
+4. Click "Load unpacked" and select the `beta/v0.7.1.2` directory
 5. Start using PrismX Privacy Shield!
 
 ### Beta Features
@@ -148,9 +176,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 
-- [Discord Community](https://discord.gg/prismx)
-- [GitHub Issues](https://github.com/PrismXNetwork/prismx-extension/issues)
+For questions, help, or security issues:
+- Open an issue in this repository
 - Email: support@prismx.network
-- Security Issues: security@prismx.network
 
 Built with ❤️ by the PrismX Team
